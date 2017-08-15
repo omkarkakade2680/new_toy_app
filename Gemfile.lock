@@ -40,7 +40,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (7.1.4)
-    autoprefixer-rails (7.1.2.4)
+    autoprefixer-rails (7.1.2.6)
       execjs
     bcrypt (3.1.11-x86-mingw32)
     bindex (0.5.0)
@@ -60,7 +60,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.12.2)
+    coffee-script-source (1.8.0)
     concurrent-ruby (1.0.5)
     erubis (2.7.0)
     excon (0.58.0)
@@ -319,12 +319,14 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  autoprefixer-rails
   bcrypt (= 3.1.11)
   bootstrap-sass (= 3.3.7)
   bootstrap-will_paginate (= 1.0.0)
   byebug
   carrierwave (= 1.1.0)
   coffee-rails (~> 4.2)
+  coffee-script-source (= 1.8.0)
   faker (= 1.7.3)
   fog (= 1.40.0)
   jbuilder (~> 2.5)
